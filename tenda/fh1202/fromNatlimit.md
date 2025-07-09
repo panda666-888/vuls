@@ -1,8 +1,11 @@
 # Tenda FH1202 fromNatlimit
 ### Overview
 vendor: Tenda
+
 product: FH1202
+
 version: V1.2.0.14(408)
+
 type: Stack Overflow
 ### Vulnerability Description
 Tenda FH1202 V1.2.0.14(408) were discovered to contain a stack overflow via the page parameter in the fromNatlimit function.
