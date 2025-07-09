@@ -26,4 +26,4 @@ response = requests.post(url, data=data)
 print(response.text)
 ```
 
-![](images/5.png)
+![](images/6.png)
