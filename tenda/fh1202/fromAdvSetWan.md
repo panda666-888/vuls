@@ -27,3 +27,4 @@ data = {
 response = requests.post(url, data=data)
 print(response.text)
 ```
+![](images/3.png)
