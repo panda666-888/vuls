@@ -8,8 +8,10 @@ type: Stack Overflow
 Tenda FH1202 V1.2.0.14(408) were discovered to contain a stack overflow via the PPPOEPassword parameter in the fromAdvSetWan function.
 ### Vulnerability details
 The Tenda FH1202 V1.2.0.14(408) firmware has a stack overflow vulnerability located in the `fromAdvSetWan` function. This function accepts the `PPPOEPassword` parameter from a POST request. The `PPPOEPassword` parameter serves as the first parameter of the decodePwd function, and the second parameter of the decodePwd function is the character array on the stack. String copy of decodePwd function leads to a buffer overflow. The user-supplied `PPPOEPassword` can exceed the capacity of the `s` array, thus triggering this security vulnerability.
+
 ![](images/1.png)
 ![](images/2.png)
+
 ### POC
 ```python
 import requests
