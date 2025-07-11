@@ -1,8 +1,11 @@
 # Tenda AC1206 formSetMacFilterCfg
 ### Overview
 vendor: Tenda
+
 product: AC1206
+
 version: 15.03.06.23
+
 type: Stack Overflow
 ### Vulnerability Description
 Tenda AC1206 15.03.06.23 were discovered to contain a stack overflow via the deviceList parameter in the formSetMacFilterCfg function.
