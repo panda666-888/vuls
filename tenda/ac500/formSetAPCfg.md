@@ -12,8 +12,8 @@ Tenda AC500 V2.0.1.9(1307) were discovered to contain a stack overflow via the r
 ### Vulnerability details
 In function formSetAPCfg line 124, it reads in a user-provided parameter `radio_2g_1`, and the variable `src` is passed to the `strcpy` function without any length check, which may overflow the stack-based buffer `s_1`. As a result, by requesting the page, an attacker can easily execute a denial of service attack or remote code execution.
 
-![](images/1.png)
 ![](images/2.png)
+![](images/1.png)
 
 ### POC
 ```python
