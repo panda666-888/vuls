@@ -4,7 +4,7 @@ vendor: TOTOLINK
 
 product: A702R
 
-version: 4.0.0-B20230721.1521
+version: V4.0.0-B20230721.1521
 
 type: Stack Overflow
 ### Vulnerability Description
