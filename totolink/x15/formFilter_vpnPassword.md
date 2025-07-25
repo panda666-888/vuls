@@ -13,8 +13,11 @@ TOTOLINK X15 V1.0.0-B20230714.1105 router has a serious buffer overflow vulnerab
 Here we need to make a judgment
 
 ![](images/10.png)
+
 ![](images/11.png)
+
 ![](images/12.png)
+
 ![](images/15.png)
 
 There is a buffer overflow here
