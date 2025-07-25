@@ -8,7 +8,7 @@ version: V1.0.0-B20230714.1105
 
 type: Stack Overflow
 ### Vulnerability Description
-TOTOLINK X15 V1.0.0-B20230714.1105 router has a serious buffer overflow vulnerability. This vulnerability can be triggered through the route /boafrm/formMapDel. An attacker can implement a denial of service attack by sending a malicious HTTP POST request.
+TOTOLINK X15 V1.0.0-B20230714.1105 router has a serious buffer overflow vulnerability. This vulnerability can be triggered through the route /boafrm/formMapDel. The manipulation of the argument devicemac1 leads to buffer overflow. An attacker can implement a denial of service attack by sending a malicious HTTP POST request.
 ### Vulnerability details
 Here we need to make a judgment
 
