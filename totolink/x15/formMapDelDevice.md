@@ -8,7 +8,7 @@ version: V1.0.0-B20230714.1105
 
 type: Stack Overflow and Command injection
 ### Vulnerability Description
-TOTOLINK X15 V1.0.0-B20230714.1105 router has a serious buffer overflow vulnerability and a serious command injection vulnerability. This vulnerability can be triggered through the route /boafrm/formMapDelDevice. An attacker can implement a denial of service attack by sending a malicious HTTP POST request.
+TOTOLINK X15 V1.0.0-B20230714.1105 router has a serious buffer overflow vulnerability and a serious command injection vulnerability. This vulnerability can be triggered through the route /boafrm/formMapDelDevice. The manipulation of the argument macstr leads to buffer overflow and command injection. An attacker can implement a denial of service attack by sending a malicious HTTP POST request.
 ### Vulnerability details
 Here we need to make a judgment
 
