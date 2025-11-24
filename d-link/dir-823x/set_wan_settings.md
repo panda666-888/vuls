@@ -1,8 +1,11 @@
 # D-Link DIR-823X 250416 set_wan_settings
 ### Overview
 vendor: D-Link
+
 product: DIR-823X
+
 version: 20250416
+
 type: Command Injection
 ### Vulnerability Description
 D-Link DIR-823X 20250416 router has a serious command injection vulnerability. This vulnerability can be triggered through the route /goform/set_wan_settings.
