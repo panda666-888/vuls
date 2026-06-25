@@ -5,7 +5,7 @@ product: A800R
 version: V4.1.2cu.5137_B20200730
 type: Stack Overflow
 ### Vulnerability Description
-A vulnerability has been found in TOTOLINK A800R V4.1.2cu.5137_B20200730. There is a stack overflow vulnerability in the wps.so. The manipulation of the argument FileName leads to stack overflow. The attack is possible to be carried out remotely. The exploit has been disclosed to the public and may be used.
+A vulnerability has been found in TOTOLINK A800R V4.1.2cu.5137_B20200730. There is a stack overflow vulnerability in the wps.so. The manipulation of the argument pin leads to stack overflow. The attack is possible to be carried out remotely. The exploit has been disclosed to the public and may be used.
 ### Vulnerability Details
 The `setWiFiWpsConfig` function retrieves the `pin` parameter from the user request. The parameter is passed to the strncpy function without any check, which may cause stack overflow.
 
